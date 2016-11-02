@@ -2,11 +2,11 @@
 First lab Distributed System TCD
 
 ## Run with docker
-To see if this works on Nebula :
+To see if this works on Nebula. Tested with docker-machine, from a node which controls other nodes :
 
-	docker run -i -w /app -p 8000 hugodelval/tcp-client /usr/local/bin/tcp-client-exe 10.62.0.15 80 "whatever message you like, with lines feeds and sp&cials ch@rs for ex."
+	docker run -i -w /app -p 80 hugodelval/tcp-client /usr/local/bin/tcp-client-exe 10.62.0.15 80 "whatever message you like, with lines feeds and sp&cials ch@rs for ex."
 
-(apache should be running)
+Apache should be running on this (private) IP.
 
 ## Run using stack
 To launch using stack:
